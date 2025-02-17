@@ -85,8 +85,60 @@
 
 #esercizio 3.7
 
+# list_1 : list = ["Adele","Demi Moore","Jennifer Aniston"]
 
+# print ("new dinner table won’t arrive in time for the dinner")
 
+# print(f" Dear {list_1 [0]} im so sorry i can not invite you to dinner")
 
+# list_1.pop(0)
 
+# print(f"Dear {list_1[0]}, you are still invited to dinner!")
+# print(f"Dear {list_1[1]}, you are still invited to dinner!")
 
+# del list_1[0]
+# del list_1[0]
+
+# print (list_1)
+
+#esercizio 3.8
+
+# list_place = ["Mexico","Thailandia","New York","Madrid","Australia","Regno Unito"]
+
+# print(list_place)
+# print(f"la lista in ordine alfabetico è: {sorted (list_place)}")
+# print(list_place)
+# print(f"la lista in ordine alfabetico è: {sorted (list_place)}")
+# print(list_place)
+
+# list_place.reverse()
+# print(list_place)
+
+# list_place.reverse()
+# print(list_place)
+
+# list_place.sort()
+# print(list_place)
+
+# list_place.sort()
+# print(list_place)
+
+#esercizio 3.9
+
+# list_1 : list=["Liam Neeson","Demi Moore","Jennifer Aniston"] 
+
+# len(list_1)
+# print(f"questi sono gli invitati alla cena: {len(list_1)}")
+
+#esercizio 3.10
+
+list_countries= ["Russia","Cina","Brasile","Italia"]
+
+list_countries.insert (1,"Spagna")
+list_countries.append ("Stati Uniti")
+list_countries.pop (3)
+del list_countries [2]
+list_countries.sort()
+list_countries.reverse()
+print(sorted(list_countries))
+print(list_countries)
