@@ -20,6 +20,9 @@ match voto_laurea:
     case voto_laurea if voto_laurea >= 66 and voto_laurea <= 69: 
         print(f"il voto di laurea americano è {1.0}")  
     case _: 
-        print(f"il tuo voto inserito non è valido {voto_laurea}") 
+        print(f"il tuo voto inserito non è valido {voto_laurea}")
+
+    #voti di laurea
+    
  
     
