@@ -22,7 +22,7 @@ match voto_laurea:
     case _: 
         print(f"il tuo voto inserito non è valido {voto_laurea}")
 
-    #voti di laurea
     
+
  
     
