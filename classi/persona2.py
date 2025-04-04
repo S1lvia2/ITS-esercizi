@@ -16,16 +16,20 @@ class Persona:
         self.lastname = lastname
 
     def setAge(self, age:int) -> None:
-        if age < o or age > 130: 
+        if age < 0 or age > 130: 
             self.age = 0 
         else: 
-            self.age = 0 
-
-
+            self.age = age 
+    def getName(self) ->  str: 
+        return self.name
+    def getLastname(self) -> str: 
+        return self.lastname
+    def getAge(self)-> int: 
+        return self.age
 
 
 #crea un oggetto di tipo persona 
-sp: Persona = Persona()
+sp:Persona = Persona()
 
 #stampa i dati della Persona creata
 sp.displayData()
@@ -35,6 +39,16 @@ sp.setName("Silvia")
 
 #impostare il cognome di una persona 
 sp.setLastname("Pesce")
+
+#impostare l'età di una persona 
+sp.setAge(21)
+
+#stampa i dati di una persona
+
+sp.displayData()
+
+print("--------")
+print(sp.getName(),sp.getLastname(), sp.getAge())
 
 
 
