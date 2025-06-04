@@ -34,7 +34,7 @@ class Impiegato:
     
 
 class Dipartimento:
-    def _init_(self, nome: str, telefono: list, indirizzo=None):
+    def _init_(self, nome: str, telefono: list, indirizzo) -> None:
         self._nome = nome
         self._telefono = telefono
         self._indirizzo = indirizzo

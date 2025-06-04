@@ -8,8 +8,6 @@ class CodiceFiscale:
     def __hash__(self):
         return hash(self.valore)
 
-    def __repr__(self):
-        return f"CodiceFiscale('{self.valore}')"
 
 
 class PartitaIVA:
@@ -22,9 +20,7 @@ class PartitaIVA:
     def __hash__(self):
         return hash(self.valore)
 
-    def __repr__(self):
-        return f"PartitaIVA('{self.valore}')"
-
+    
 
 class Indirizzo:
     def __init__(self, via: str, citta: str):
@@ -36,9 +32,6 @@ class Indirizzo:
 
     def __hash__(self):
         return hash((self.via, self.citta))
-
-    def __repr__(self):
-        return f"Indirizzo('{self.via}', '{self.citta}')"
 
 
 
@@ -57,9 +50,7 @@ class Direttore:
     def __hash__(self):
         return hash(self.cf)
 
-    def __repr__(self):
-        return f"Direttore({self.nome} {self.cognome}, CF={self.cf})"
-
+   
 
 class Fornitore:
     def __init__(self, ragione_sociale: str, partita_iva: PartitaIVA, indirizzo: Indirizzo, telefono: str, email: str):
@@ -75,5 +66,4 @@ class Fornitore:
     def __hash__(self):
         return hash(self.partita_iva)
 
-    def __repr__(self):
-        return f"Fornitore('{self.ragione_sociale}', PI={self.partita_iva})"
+    
