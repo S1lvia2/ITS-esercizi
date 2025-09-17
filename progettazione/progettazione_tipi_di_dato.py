@@ -66,4 +66,3 @@ class Fornitore:
     def __hash__(self):
         return hash(self.partita_iva)
 
-    
